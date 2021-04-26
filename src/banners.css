@@ -1,0 +1,24 @@
+/* CustomUserBadges Support Server [Server ID (818960705255899178)] */
+[aria-label*="Badge Support"]{
+--bannerbg:url("https://i.imgur.com/RnvRYPF.jpg");--bannerheight: 300px;--custom-bghighlight:transparent;}
+/*  My Twtich Server [Server ID (797173403505000539)] */
+[aria-label*="RGWJ's Discord World"]{
+--bannerbg:url("https://i.imgur.com/vzmkPqam.jpg");--bannerheight: 300px;--custom-bghighlight:transparent;}
+/*  My Mod Server [Server ID (DATA_NOT_FOUND)] */
+[aria-label*="The Phantom Mods"]{
+--bannerbg:url("https://i.imgur.com/sODWXO9m.png");--bannerheight: 300px;--custom-bghighlight:transparent;}
+/* KLWP Project Server [Server ID (390020191582683146)] */
+[aria-label*="KLWP Project"]{
+--bannerbg:url("https://i.imgur.com/uwTFn7K.png");--bannerheight: 400px;--custom-bghighlight:transparent;}
+/* Comfy Support Server [Server ID (811203761619337259)] */  
+[aria-label*="Comfy camp"]{
+--bannerbg:url("https://i.imgur.com/61FVDVp.jpg");--bannerheight: 140px;--custom-bghighlight:transparent;}
+/* BorderShapes Support Server [Server ID (763831710835933214)] */
+[aria-label*="JayWilson's Place"]{
+--bannerbg:url("https://cdn.discordapp.com/icons/763831710835933214/69d3a60796c49b8326b4d556e2f4d045.webp");
+--bannerheight: 300px;--custom-bghighlight:transparent;}
+/*  Pukima Community's Server [Server ID (782245108724400128)] */
+[aria-label*="Pukima Community"]{
+--bannerbg:url("https://i.imgur.com/oXrPAM5.png");--bannerheight: 300px;--custom-bghighlight:transparent;}
+/* ==================================Template   Banner============================== */
+[aria-label*=""]{--bannerbg:url("");--bannerheight: 300px;--custom-bghighlight:transparent;}
