@@ -3,7 +3,7 @@
 --server-banner-shadow: var(--background-secondary);
 --nobg: url("https://i.imgur.com/Gjc2Uhy.jpg");
 --normal-bghighlight: var(--background-secondary);
---normal-bannerheight:20px;}
+--normal-bannerheight:55px;}
 /* ==================================Important CSS================================== */
 .container-1taM1r{background: var(--custom-bghighlight, var(--normal-bghighlight)) !important;}
 .container-3w7J-x .header-2V-4Sw{box-shadow: none;}
