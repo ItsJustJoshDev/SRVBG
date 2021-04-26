@@ -1,0 +1,22 @@
+/* ==================================Import URL===================================== */
+@import url("");
+/* ==================================Important Variable============================= */
+:root {
+--server-banner-shadow: var(--background-secondary);
+--nobg: url("https://i.imgur.com/Gjc2Uhy.jpg");
+--normal-bghighlight: var(--background-secondary);}
+/* ==================================Important CSS================================== */
+.container-1taM1r{background: var(--custom-bghighlight, var(--normal-bghighlight)) !important;}
+.container-3w7J-x .header-2V-4Sw{box-shadow: none;}
+.container-3w7J-x .positionedContainer-3LNR6L {
+margin-top: -48px;
+width: 100%;
+height: var(--bannerheight);
+box-shadow: inset  0 -20px 20px -20px var(--server-banner-shadow);
+background-image: var(--bannerbg, var(--nobg));
+background-color: var(--server-banner-shadow);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;}
+/* ================================================================================== */
