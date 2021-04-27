@@ -1,8 +1,8 @@
 /* ==================================Important Variable============================= */
 :root {
 --server-banner-shadow: var(--background-secondary);
---normal-bghighlight: var(--background-secondary);
---normal-bannerheight:48px;}
+--normal-bghighlight: var(--server-banner-shadow);
+--normal-bannerheight:0px;}
 /* ==================================Important CSS================================== */
 .container-1taM1r{background: var(--custom-bghighlight, var(--normal-bghighlight)) !important;}
 .container-3w7J-x .header-2V-4Sw{box-shadow: none;}
@@ -10,9 +10,8 @@
 margin-top: -48px;
 width: 100%;
 height: var(--bannerheight, var(--normal-bannerheight));
-box-shadow: inset  0 -20px 20px -20px var(--server-banner-shadow);
+box-shadow: inset  0 0px 20px -20px var(--server-banner-shadow);
 background-image: var(--bannerbg);
-background-color: var(--server-banner-shadow);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
