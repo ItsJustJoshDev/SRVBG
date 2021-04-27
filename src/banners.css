@@ -1,5 +1,9 @@
-/* ==================================Import URL===================================== */
+/* ==================================Import URL============================================================= */
 @import url("https://therealgwjosh.github.io/BannerBG/src/main.css");
+/* ==================================Import URL============================================================= */
+
+
+
 /* CustomUserBadges Support Server [Server ID (818960705255899178)] */
 [aria-label*="Badge Support"]{
 --bannerbg:url("https://i.imgur.com/RnvRYPF.jpg");--bannerheight: 300px;--custom-bghighlight:transparent;}
@@ -11,7 +15,7 @@
 --bannerbg:url("https://i.imgur.com/sODWXO9m.png");--bannerheight: 300px;--custom-bghighlight:transparent;}
 /* KLWP Project Server [Server ID (390020191582683146)] */
 [aria-label*="KLWP Project"]{
---bannerbg:url("https://i.imgur.com/uwTFn7K.png");--bannerheight: 400px;--custom-bghighlight:transparent;}
+--bannerbg:url("https://i.imgur.com/uwTFn7K.png");--bannerheight: 500px;--custom-bghighlight:transparent;}
 /* Comfy Support Server [Server ID (811203761619337259)] */  
 [aria-label*="Comfy camp"]{
 --bannerbg:url("https://i.imgur.com/61FVDVp.jpg");--bannerheight: 140px;--custom-bghighlight:transparent;}
@@ -22,5 +26,13 @@
 /*  Pukima Community's Server [Server ID (782245108724400128)] */
 [aria-label*="Pukima Community"]{
 --bannerbg:url("https://i.imgur.com/oXrPAM5.png");--bannerheight: 300px;--custom-bghighlight:transparent;}
-/* ==================================Template   Banner============================== */
+/*  Open Styles Server [Server ID (379521691774353408)]   */
+[aria-label*="Open Styles"]{
+--bannerbg:url("https://i.imgur.com/JMGpcyX.png");
+--bannerheight: 170px;--custom-bghighlight:transparent;}
+
+
+
+/* ==================================Template   Banner========================================= */
 [aria-label*=""]{--bannerbg:url("");--bannerheight: 300px;--custom-bghighlight:transparent;}
+/* ==================================Template   Banner========================================= */
