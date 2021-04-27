@@ -1,9 +1,8 @@
 /* ==================================Important Variable============================= */
 :root {
 --server-banner-shadow: var(--background-secondary);
---nobg: url("https://i.imgur.com/Gjc2Uhy.jpg");
 --normal-bghighlight: var(--background-secondary);
---normal-bannerheight:65px;}
+--normal-bannerheight:48px;}
 /* ==================================Important CSS================================== */
 .container-1taM1r{background: var(--custom-bghighlight, var(--normal-bghighlight)) !important;}
 .container-3w7J-x .header-2V-4Sw{box-shadow: none;}
@@ -12,7 +11,7 @@ margin-top: -48px;
 width: 100%;
 height: var(--bannerheight, var(--normal-bannerheight));
 box-shadow: inset  0 -20px 20px -20px var(--server-banner-shadow);
-background-image: var(--bannerbg, var(--nobg));
+background-image: var(--bannerbg);
 background-color: var(--server-banner-shadow);
 background-repeat: no-repeat;
 background-position: center;
