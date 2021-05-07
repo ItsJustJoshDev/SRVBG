@@ -30,6 +30,9 @@
 [aria-label*="Open Styles"]{
 --bannerbg:url("https://i.imgur.com/JMGpcyX.png");
 --bannerheight: 170px;--custom-bghighlight:transparent;}
+/*  GREEN GANG [REBORN]'s Server [Server ID (695983588709105684)]         */
+ [aria-label*="GREEN GANG [REBORN]"]{
+--bannerbg:url("https://i.imgur.com/Kc6mSmn.jpg");--bannerheight: 300px;--custom-bghighlight:transparent;} 
 /* New Banner Unknown */
 [aria-label*="IsaacTown"]{
 --bannerbg:url("https://i.imgur.com/B5NwEPm.png");--bannerheight: 300px;--custom-bghighlight:transparent;}
