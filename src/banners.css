@@ -30,6 +30,9 @@
 [aria-label*="Open Styles"]{
 --bannerbg:url("https://i.imgur.com/JMGpcyX.png");
 --bannerheight: 170px;--custom-bghighlight:transparent;}
+/* New Banner Unknown */
+[aria-label*="IsaacTown"]{
+--bannerbg:url("https://i.imgur.com/B5NwEPm.png");--bannerheight: 300px;--custom-bghighlight:transparent;}
 
 
 
