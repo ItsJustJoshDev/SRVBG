@@ -22,7 +22,7 @@
 /* BorderShapes Support Server [Server ID (859835827877838868)] */
 [aria-label*="BorderShapes"]{
 --bannerbg:url("https://media.discordapp.net/attachments/861776833190821918/885558176630603796/Server-Invite-Background.png?width=767&height=431");
---bannerheight: 300px;--custom-bghighlight:transparent;}
+--bannerheight: 250px;--custom-bghighlight:transparent;}
 /*  Pukima Community's Server [Server ID (782245108724400128)] */
 [aria-label*="Pukima's Place"]{
 --bannerbg:url("https://i.imgur.com/oXrPAM5.png");--bannerheight: 300px;--custom-bghighlight:transparent;}
