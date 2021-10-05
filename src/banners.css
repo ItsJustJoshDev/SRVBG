@@ -189,6 +189,23 @@
 
 }
 
+/* Archcraft Support Servers */
+[aria-label*="Archcraft"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 116px 16px 16px 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://i.imgur.com/c1eTK8b.png") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /* Template Banner */
 [aria-label*="BannerBG-Test-Banner"] {
 
