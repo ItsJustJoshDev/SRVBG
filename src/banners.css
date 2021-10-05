@@ -1,44 +1,189 @@
-/* ==================================Import URL============================================================= */
 @import url("https://therealgwjosh.github.io/BannerBG/src/main.css");
-/* ==================================Import URL============================================================= */
-
-
 
 /* CustomUserBadges Support Server [Server ID (818960705255899178)] */
-[aria-label*="Joshua's Palace"]{
---bannerbg:url("https://i.imgur.com/RnvRYPF.jpg");--bannerheight: 300px;--custom-bghighlight:transparent;}
+[aria-label*="Joshua's Palace"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://i.imgur.com/RnvRYPF.jpg") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /*  My Twtich Server [Server ID (797173403505000539)] */
-[aria-label*="RGWJ's Discord World"]{
---bannerbg:url("https://i.imgur.com/vzmkPqam.jpg");--bannerheight: 300px;--custom-bghighlight:transparent;}
+[aria-label*="RGWJ's Discord World"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://i.imgur.com/vzmkPqam.jpg") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /*  My Mod Server [Server ID (DATA_NOT_FOUND)] */
-[aria-label*="The Phantom Mods"]{
---bannerbg:url("https://i.imgur.com/sODWXO9m.png");--bannerheight: 300px;--custom-bghighlight:transparent;}
+[aria-label*="The Phantom Mods"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://i.imgur.com/sODWXO9m.png") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /* KLWP Project Server [Server ID (390020191582683146)] */
-[aria-label*="KLWP Project"]{
---bannerbg:url("https://i.imgur.com/uwTFn7K.png");--bannerheight: 500px;--custom-bghighlight:transparent;}
-/* Comfy Support Server [Server ID (811203761619337259)] */  
-[aria-label*="Comfy camp"]{
---bannerbg:url("https://i.imgur.com/61FVDVp.jpg");--bannerheight: 140px;--custom-bghighlight:transparent;}
+[aria-label*="KLWP Project"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://i.imgur.com/uwTFn7K.png") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
+/* Comfy Support Server [Server ID (811203761619337259)] */
+[aria-label*="🎃 Spooky camp"], 
+[aria-label*="Comfy camp"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://i.imgur.com/5PUPyAe.png") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /* BorderShapes Support Server [Server ID (859835827877838868)] */
-[aria-label*="BorderShapes"]{
---bannerbg:url("https://media.discordapp.net/attachments/861776833190821918/885558176630603796/Server-Invite-Background.png?width=767&height=431");
---bannerheight: 250px;--custom-bghighlight:transparent;}
+[aria-label*="BorderShapes"] {
+
+	--BannerBG-Header-Height: 100px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://media.discordapp.net/attachments/861776833190821918/885558176630603796/Server-Invite-Background.png?width=767&height=431") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /*  Pukima Community's Server [Server ID (782245108724400128)] */
-[aria-label*="Pukima's Place"]{
---bannerbg:url("https://i.imgur.com/oXrPAM5.png");--bannerheight: 300px;--custom-bghighlight:transparent;}
+[aria-label*="Pukima's Place"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://i.imgur.com/oXrPAM5.png") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /*  Open Styles Server [Server ID (379521691774353408)]   */
-[aria-label*="Open Styles"]{
---bannerbg:url("https://i.imgur.com/JMGpcyX.png");
---bannerheight: 170px;--custom-bghighlight:transparent;}
+[aria-label*="Open Styles"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://i.imgur.com/JMGpcyX.png") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /*  GREEN GANG [REBORN]'s Server [Server ID (695983588709105684)]         */
- [aria-label*="GREEN GANG [REBORN]"]{
---bannerbg:url("https://i.imgur.com/Kc6mSmn.jpg");--bannerheight: 300px;--custom-bghighlight:transparent;} 
+[aria-label*="GREEN GANG [REBORN]"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://i.imgur.com/Kc6mSmn.jpg") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /* New Banner Unknown */
-[aria-label*="IsaacTown"]{
---bannerbg:url("https://i.imgur.com/B5NwEPm.png");--bannerheight: 300px;--custom-bghighlight:transparent;}
+[aria-label*="IsaacTown"] {
 
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
 
+	--BannerBG-Server-Banner: url("https://i.imgur.com/B5NwEPm.png") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
 
-/* ==================================Template   Banner========================================= */
-[aria-label*=""]{--bannerbg:url("");--bannerheight: 300px;--custom-bghighlight:transparent;}
-/* ==================================Template   Banner========================================= */
+}
+
+/* Template Banner */
+[aria-label*="BannerBG-Test-Banner"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
