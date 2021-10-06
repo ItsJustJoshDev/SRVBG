@@ -206,6 +206,24 @@
 
 }
 
+/* Team Flashcord */
+[aria-label*="Flashcord"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	/* Tehehe Don't Tell */
+	--BannerBG-Server-Banner: url("https://i.imgur.com/D0F2m68.png") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /* Template Banner */
 [aria-label*="BannerBG-Test-Banner"] {
 
