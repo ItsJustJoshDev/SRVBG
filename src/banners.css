@@ -224,6 +224,24 @@
 
 }
 
+/* Otaku's Server */
+[aria-label*="otaku's server"] {
+
+	--BannerBG-Header-Height: 150px !important;
+	--BannerBG-Header-Padding: 120px 16px 16px 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	/* Tehehe Don't Tell */
+	--BannerBG-Server-Banner: url("https://media.discordapp.net/attachments/895843260419952741/896054385061298176/ezgif.com-gif-maker.png") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /* Template Banner */
 [aria-label*="BannerBG-Test-Banner"] {
 
