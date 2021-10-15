@@ -240,6 +240,23 @@
 
 }
 
+/* CreArts | Community - Server ID (534376415202639903) */
+[aria-label*="CreArts | Community"] {
+
+	--BannerBG-Header-Height: 140px !important;
+	--BannerBG-Header-Padding: 16px !important;
+	--BannerBG-Header-Box-Shadow: none !important;
+
+	--BannerBG-Server-Banner: url("https://i.imgur.com/nOPFf0m.png") !important;
+	--BannerBG-Server-Width: 100% !important;
+	--BannerBG-Server-Height: 100% !important;
+	--BannerBG-Server-Top: 0 !important;
+	--BannerBG-Server-Left: 0 !important;
+	--BannerBG-Server-Z-Index: -1 !important;
+	--BannerBG-Server-Position: absolute !important;
+
+}
+
 /* Template Banner */
 [aria-label*="BannerBG-Test-Banner"] {
 
