@@ -1,3 +1,6 @@
+/* Import the Banners */
+@import url("https://therealgwjosh.github.io/BannerBG/src/main.css");
+
 :root {
 
 	--BannerBG-Header-Height: block;
