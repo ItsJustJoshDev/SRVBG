@@ -257,6 +257,14 @@
 
 }
 
+/* CreArts Is Special :3 */
+.container-3w7J-x[aria-label*="CreArts"] + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ {
+  color: rgba(205, 9, 82, 1.0) !important;
+}
+.container-3w7J-x[aria-label*="CreArts"] + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ [class*="strikethrough"] {
+  color: rgb(204, 142, 165) !important;
+}
+
 /* Template Banner */
 [aria-label*="BannerBG-Test-Banner"] {
 
