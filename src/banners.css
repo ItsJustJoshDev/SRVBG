@@ -1,46 +1,12 @@
 
-/* CustomUserBadges Support Server [Server ID (818960705255899178)] */
+/* Owners Server [Server ID (818960705255899178)] */
 [aria-label*="Joshua's Palace"] {
 
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 16px !important;
 	--BannerBG-Header-Box-Shadow: none !important;
 
-	--BannerBG-Server-Banner: url("https://i.imgur.com/RnvRYPF.jpg") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-}
-
-/*  My Twtich Server [Server ID (797173403505000539)] */
-[aria-label*="RGWJ's Discord World"] {
-
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
-
-	--BannerBG-Server-Banner: url("https://i.imgur.com/vzmkPqam.jpg") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-}
-
-/*  My Mod Server [Server ID (DATA_NOT_FOUND)] */
-[aria-label*="The Phantom Mods"] {
-
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
-
-	--BannerBG-Server-Banner: url("https://i.imgur.com/sODWXO9m.png") !important;
+	--BannerBG-Server-Banner: url("https://i.imgur.com/zRd4NCX.jpg") !important;
 	--BannerBG-Server-Width: 100% !important;
 	--BannerBG-Server-Height: 100% !important;
 	--BannerBG-Server-Top: 0 !important;
