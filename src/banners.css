@@ -41,6 +41,16 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
+
 }
 
 /* Comfy Support Server [Server ID (811203761619337259)] */
@@ -59,6 +69,16 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
+
 }
 
 /* BorderShapes Support Server [Server ID (859835827877838868)] */
@@ -75,6 +95,16 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
 
 }
 
@@ -93,6 +123,16 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
+
 }
 
 /*  Open Styles Server [Server ID (379521691774353408)]   */
@@ -109,6 +149,16 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
 
 }
 
@@ -127,6 +177,16 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
+
 }
 
 /* New Banner Unknown */
@@ -143,6 +203,16 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
 
 }
 
@@ -162,6 +232,16 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
+
 }
 
 /* Archcraft Support Servers */
@@ -178,6 +258,16 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
 
 }
 
@@ -197,6 +287,16 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
+
 }
 
 /* Otaku's Server */
@@ -214,6 +314,16 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
+
 }
 
 /* CreArts | Community - Server ID (534376415202639903) */
@@ -230,6 +340,16 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
 
 }
 
@@ -255,5 +375,15 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
 
 }
