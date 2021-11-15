@@ -14,6 +14,16 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* CreArts V2 Vars */
+	--BBG-CreArts-Header-Height: 135px;
+	--BBG-CreArts-Header-Padding: 80px;
+	--BBG-CreArts-Header-Z-Index: 2;
+	--BBG-CreArts-Header-Opacity-1: 1;
+	--BBG-CreArts-Header-Opacity-0: 0;
+	--BBG-CreArts-Header-Transition: none;
+	--BBG-CreArts-Header-Color: var(--interactive-active);
+	--BBG-CreArts-Header-Radius: var(--radius-primary);
+
 }
 
 /* KLWP Project Server [Server ID (390020191582683146)] */
