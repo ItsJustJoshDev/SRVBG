@@ -3,10 +3,8 @@
 .guildIcon-3ZfRfI[style*='818960705255899178']~*,
 .guildIcon-3ZfRfI[style*='818960705255899178'],
 .guildIcon-3ZfRfI[style*='818960705255899178'],
-[aria-label*="Joshua's Palace"] {
-
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
+[aria-label*="Joshua's Palace"],
+*[style*='818960705255899178'] {
 
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 16px !important;
@@ -19,6 +17,9 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
 
 	/* CreArts V2 Vars */
 	--BBG-CreArts-Header-Height: 135px;
@@ -46,6 +47,9 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
 
 	/* CreArts V2 Vars */
 	--BBG-CreArts-Header-Height: 135px;
@@ -75,6 +79,9 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
+
 	/* CreArts V2 Vars */
 	--BBG-CreArts-Header-Height: 35px;
 	--BBG-CreArts-Header-Padding: 80px;
@@ -101,6 +108,9 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
 
 	/* CreArts V2 Vars */
 	--BBG-CreArts-Header-Height: 135px;
@@ -129,6 +139,9 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
+
 	/* CreArts V2 Vars */
 	--BBG-CreArts-Header-Height: 135px;
 	--BBG-CreArts-Header-Padding: 80px;
@@ -156,6 +169,9 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
+
 	/* CreArts V2 Vars */
 	--BBG-CreArts-Header-Height: 135px;
 	--BBG-CreArts-Header-Padding: 80px;
@@ -182,6 +198,9 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
 
 	/* CreArts V2 Vars */
 	--BBG-CreArts-Header-Height: 135px;
@@ -238,6 +257,9 @@
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
 
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
+
 	/* CreArts V2 Vars */
 	--BBG-CreArts-Header-Height: 135px;
 	--BBG-CreArts-Header-Padding: 80px;
@@ -264,6 +286,9 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
 
 	/* CreArts V2 Vars */
 	--BBG-CreArts-Header-Height: 135px;
@@ -292,6 +317,9 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
 
 	/* CreArts V2 Vars */
 	--BBG-CreArts-Header-Height: 135px;
@@ -346,6 +374,9 @@
 	--BannerBG-Server-Left: 0 !important;
 	--BannerBG-Server-Z-Index: -1 !important;
 	--BannerBG-Server-Position: absolute !important;
+
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
 
 	/* CreArts V2 Vars */
 	--BBG-CreArts-Header-Height: 135px;
