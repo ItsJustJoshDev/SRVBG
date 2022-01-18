@@ -3,6 +3,9 @@
 [aria-label*="Joshua's Palace"],
 [style*='818960705255899178'] {
 
+	/* BetterInvites */
+	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
+
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 16px !important;
 	--BannerBG-Header-Box-Shadow: none !important;
