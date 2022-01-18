@@ -34,7 +34,8 @@
 }
 
 /* KLWP Project Server [Server ID (390020191582683146)] */
-[aria-label*="KLWP Project"] {
+[aria-label*="KLWP Project"],
+*[style*='390020191582683146'] {
 
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 16px !important;
@@ -65,7 +66,8 @@
 
 /* Comfy Support Server [Server ID (811203761619337259)] */
 [aria-label*="🎃 Spooky camp"], 
-[aria-label*="Comfy camp"] {
+[aria-label*="Comfy camp"],
+*[style*='811203761619337259'] {
 
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 16px !important;
@@ -95,7 +97,8 @@
 }
 
 /* BorderShapes Support Server [Server ID (859835827877838868)] */
-[aria-label*="BorderShapes"] {
+[aria-label*="BorderShapes"],
+*[style*='859835827877838868'] {
 
 	--BannerBG-Header-Height: 100px !important;
 	--BannerBG-Header-Padding: 16px !important;
@@ -125,7 +128,8 @@
 }
 
 /*  Pukima Community's Server [Server ID (782245108724400128)] */
-[aria-label*="Pukima's Place"] {
+[aria-label*="Pukima's Place"],
+*[style*='782245108724400128'] {
 
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 16px !important;
@@ -155,7 +159,8 @@
 }
 
 /*  Open Styles Server [Server ID (379521691774353408)]   */
-[aria-label*="Open Styles"] {
+[aria-label*="Open Styles"],
+*[style*='379521691774353408'] {
 
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 16px !important;
@@ -185,7 +190,8 @@
 }
 
 /*  GREEN GANG [REBORN]'s Server [Server ID (695983588709105684)]         */
-[aria-label*="GREEN GANG [REBORN]"] {
+[aria-label*="GREEN GANG [REBORN]"],
+*[style*='695983588709105684'] {
 
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 16px !important;
@@ -243,7 +249,8 @@
 
 
 /* Black Box [SERVER-ID](449175561529589761) */
-[aria-label*="Black Box"] {
+[aria-label*="Black Box"],
+*[style*='449175561529589761'] {
 
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 16px !important;
@@ -273,7 +280,9 @@
 }
 
 /* Archcraft Support Servers */
-[aria-label*="Archcraft"] {
+[aria-label*="Archcraft"],
+*[style*='858830126711046177'],
+*[style*='888837929789710387'] {
 
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 116px 16px 16px 16px !important;
@@ -303,7 +312,8 @@
 }
 
 /* Team Flashcord */
-[aria-label*="Flashcord"] {
+[aria-label*="Flashcord"],
+*[style*='820007082937942048'] {
 
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 16px !important;
@@ -361,7 +371,8 @@
 }
 
 /* CreArts | Community - Server ID (534376415202639903) */
-[aria-label*="CreArts | Community"] {
+[aria-label*="CreArts | Community"],
+*[style*='534376415202639903'] {
 
 	--BannerBG-Header-Height: 140px !important;
 	--BannerBG-Header-Padding: 16px !important;
