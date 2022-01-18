@@ -1,7 +1,9 @@
 
 /* Owners Server [Server ID (818960705255899178)] */
-[aria-label*="Joshua's Palace"],
-[style*='818960705255899178'] {
+.guildIcon-3ZfRfI[style*='818960705255899178']~*,
+.guildIcon-3ZfRfI[style*='818960705255899178'],
+.guildIcon-3ZfRfI[style*='818960705255899178'],
+[aria-label*="Joshua's Palace"] {
 
 	/* BetterInvites */
 	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
