@@ -1,6 +1,7 @@
 
 /* Owners Server [Server ID (818960705255899178)] */
-[aria-label*="Joshua's Palace"] {
+[aria-label*="Joshua's Palace"],
+[style*='818960705255899178'] {
 
 	--BannerBG-Header-Height: 150px !important;
 	--BannerBG-Header-Padding: 16px !important;
