@@ -1,4 +1,4 @@
-# BannerBG
+# SRVBG - Server Backgrounds
 USRBG But For Server Banners - Server Banners For Discord Without The Server Boosts! What More Could You Want
 
 ## Credit To The Awsome Pepole and Content :3
