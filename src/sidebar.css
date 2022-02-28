@@ -1,0 +1,42 @@
+/* Sidebar Stuff */
+.container-1NXEtd .scrollerBase-_bVAAt::-webkit-scrollbar-thumb {
+	background: var(--server-accent, var(--background-tertiary)) !important;
+}
+
+.container-1NXEtd .scrollerBase-_bVAAt::-webkit-scrollbar {
+	width: 5px;
+}
+
+.container-1NXEtd .addButtonIcon-3rJeaD polygon {
+	fill: var(--server-accent, var(--interactive-normal)) !important;
+}
+
+.container-1NXEtd [class*="mention"] {
+	background-color: var(--server-accent, var(--brand-experiment)) !important;
+}
+
+.container-1NXEtd [class*="mentionsBadge"],
+.container-1NXEtd [class*="numberBadge"] {
+	background-color: var(--server-accent, var(--brand-experiment)) !important;
+	border-radius: 50% !important;
+}
+
+.container-1NXEtd .iconBase-2G48Fc path {
+	fill: var(--server-accent, var(--interactive-normal)) !important;
+}
+
+.container-1NXEtd .unread-36eUEm {
+	background: var(--server-accent, var(--header-primary)) !important;
+}
+
+.container-1NXEtd .modeUnread-3Cxepe .channelName-3KPsGw {
+	color: var(--server-accent, var(--header-primary)) !important;
+}
+
+.container-1-ERn5 + .panels-3wFtMD > .container-YkUktl .button-12Fmur {
+	color: var(--server-accent, var(--interactive-normal)) !important;
+}
+
+.container-1-ERn5 + .panels-3wFtMD > .container-YkUktl .button-12Fmur [class*="strikethrough"] {
+	color: var(--server-accent-extra, red) !important;
+}
