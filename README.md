@@ -1,5 +1,5 @@
 # SRVBG - Server Backgrounds
-a Custom Background Database For Servers
+a Custom Database For Servers.
 
 Inculdes Accent Colors, Banners, Tooltips and Custom Badges
 
