@@ -3,7 +3,7 @@
 
 /* BetterInvites */
 .guildIcon-3ZfRfI::after {
-	background: var(--server-background)
+	background: var(--server-background, var(--server-accent));
 }
 
 .wrapper-1HIH0j {
