@@ -1,0 +1,21 @@
+#app-mount .root-8LYsGj [class*="listRow-"] [class*="icon-"]:before {
+	content: "";
+	position: absolute;
+	background: center/cover;
+	background: var(--server-background, var(--server-accent));
+	background-repeat: no-repeat;
+	border-radius: 4px;
+	top: -4px !important;
+	left: -4px !important;
+	width: 584px !important;
+	height: 48px !important;
+	z-index: 0;
+	opacity: .3;
+	transition: 300ms ease-in-out;
+	pointer-events: none;
+}
+
+#app-mount .root-8LYsGj [class*="listRow-"] [class*="icon-"]:hover:before {
+	opacity: 1;
+	transition: 300ms ease-in-out;
+}
