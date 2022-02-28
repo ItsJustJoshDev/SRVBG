@@ -1,35 +1,18 @@
-
-/* Owners Server [Server ID (818960705255899178)] */
-.guildIcon-3ZfRfI[style*='818960705255899178']~*,
-.guildIcon-3ZfRfI[style*='818960705255899178'],
-.guildIcon-3ZfRfI[style*='818960705255899178'],
-[aria-label*="Joshua's Palace"],
+*[aria-label*="The King's Lounge"],
 *[style*='818960705255899178'] {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: #a28b4f;
 
-	--BannerBG-Server-Banner: url("https://i.imgur.com/zRd4NCX.jpg") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: 6px;
+	--utility-tooltip-pading: 1px 8px 0px 8px;
+	--server-tooltip: block;
+	--server-tooltip-text: "Server Backgrounds Offical Server";
+	--server-badge: url("https://itsjustjoshdev.github.io/src/assets/favcon/crown.png");
+	--server-background: url("https://i.imgur.com/zRd4NCX.jpg");
 
 }
 
