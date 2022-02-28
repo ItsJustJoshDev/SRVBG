@@ -40,7 +40,7 @@
 	z-index: var(--utility-z-index-base);
 	width: 100%;
 	height: calc(var(--server-background-height) - 50px);
-	background: var(--server-background) center/cover;
+	background: var(--server-background, var(--server-accent)) center/cover;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	-webkit-mask: linear-gradient(var(--background-secondary), transparent);
