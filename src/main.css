@@ -1,44 +1,64 @@
-/* Import the Banners */
-@import url("https://itsjustjoshdev.github.io/SRVBG/src/banners.css");
+@import url("https://itsjustjoshdev.github.io/SRVBG/src/db/banners.css");
 
 :root {
 
-	--BannerBG-Header-Height: block;
-	--BannerBG-Header-Padding: 16px;
-	--BannerBG-Header-Box-Shadow: revert;	
-
-	--BannerBG-Server-Banner: block;
-	--BannerBG-Server-Width: block;
-	--BannerBG-Server-Height: block;
-	--BannerBG-Server-Top: block;
-	--BannerBG-Server-Left: block;
-	--BannerBG-Server-Z-Index: block;
-	--BannerBG-Server-Position: block;
+	--utility-top: 0;
+	--utility-left: 0;
+	--utility-z-index-base: 0;
+	--utility-z-index-content: 4;
+	--utility-z-index-extra: 5;
+	--utility-position: absolute;
+	--utility-opacity: 0;
+	--utility-opacity-hover: 1;
 
 }
 
-/* BannerBG Main Code */
-[class*="container-3w7J-x"] [class*="header-2V-4Sw"] {
-	height: var(--BannerBG-Header-Height);
-	padding: var(--BannerBG-Header-Padding);
-	box-shadow: var(--BannerBG-Header-Box-Shadow);
-	align-items: flex-start;
+/* Server Banners */
+.container-1-ERn5 [class*="header-"] {
+	height: var(--server-background-height, 48px);
+	padding: 16px; align-items: flex-start;
+	z-index: var(--utility-z-index-base);
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
 }
 
-[class*="container-3w7J-x"] [class*="header-2V-4Sw"]::before {
+.container-1-ERn5 [class*="header-"]::before {
+	-webkit-box-shadow: var(--elevation-low);
+	background: var(--utility-header-color, var(--background-secondary));
+	z-index: var(--utility-z-index-base);
+	box-shadow: var(--elevation-low);
+	content: ""; position: absolute;
+	width: 100%; height: 50px;
+	top: 0; left: 0; 
+}
+
+.container-1-ERn5 [class*="header-"]::after {
 	content: "";
-	position: var(--BannerBG-Server-Position);
-	top: var(--BannerBG-Server-Top);
-	left: var(--BannerBG-Server-Left);
-	z-index: var(--BannerBG-Server-Z-Index);
-	width: var(--BannerBG-Server-Width);
-	height: var(--BannerBG-Server-Height);
-	background: var(--BannerBG-Server-Banner) center/cover no-repeat;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	z-index: var(--utility-z-index-base);
+	width: 100%;
+	height: calc(var(--server-background-height) - 50px);
+	background: var(--server-background) center/cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
 	-webkit-mask: linear-gradient(var(--background-secondary), transparent);
 }
 
-/* Shrink server banners to header instead of disappearing. */
+.container-1-ERn5 [class*="header-"] [class*="flowerStar-"] {
+	z-index: var(--utility-z-index-content) !important;
+}
+
+.container-1-ERn5 [class*="header-"] [class*="flowerStar"] *,
+.container-1-ERn5 [class*="header-"] .name-3Uvkvr {
+	z-index: var(--utility-z-index-extra) !important;
+}
+
+/* Fix Boosted Banners From Breaking */
 [class*="animatedContainer-"] {
+	margin-top: 49px;
+	height: calc(var(--srvbg-height) - 55px);
 	opacity: 1 !important;
 	transition: opacity .5s;
 }
@@ -48,10 +68,41 @@
 }
 
 :not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
-	opacity: .35 !important;
-	height: 138px;
+	margin-top: -12px; opacity: .35 !important; height: 150px;
 }
 
-:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] > [class*="bannerImage-"] {
-	margin-top: -12px;
+/* Server Badges & Tooltips */
+.container-1-ERn5 .header-3OsQeK .name-3Uvkvr::before {
+	content: ""; background: no-repeat;
+	background: var(--server-badge) center/100% !important;
+	padding: var(--utility-tooltip-pading, 0);
+	margin-right: var(--utility-tooltip-margin, 0);
+	z-index: var(--utility-z-index-extra) !important;
+}
+
+.container-1-ERn5 .header-3OsQeK .name-3Uvkvr::after {
+	-webkit-box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
+	background-color: var(--server-accent, var(--background-floating));
+	display: none; animation: anim .5s forwards;
+	content: var(--server-tooltip-text, none);
+	padding: 5px 10px; border-radius: 4px;
+	font-size: 12px; position: absolute;
+	opacity: var(--utility-opacity);
+}
+
+.container-1-ERn5 .header-3OsQeK .name-3Uvkvr:hover::after {
+	opacity: var(--utility-opacity-hover);
+	display: var(--server-tooltip, none);
+}
+
+/* Keyframes */
+@keyframes anim {
+	from {
+		left: 5px; top: 35px; opacity: 0; display: none;
+	}
+
+	to {
+		left: 10px; top: 40px; opacity: 1; display: block;
+	}
 }
