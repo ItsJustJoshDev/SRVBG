@@ -1,4 +1,3 @@
-/* Sidebar Stuff */
 .container-1NXEtd .scrollerBase-_bVAAt::-webkit-scrollbar-thumb {
 	background: var(--server-accent, var(--background-tertiary)) !important;
 }
@@ -39,4 +38,30 @@
 
 .container-1-ERn5 + .panels-3wFtMD > .container-YkUktl .button-12Fmur [class*="strikethrough"] {
 	color: var(--server-accent-extra, red) !important;
+}
+
+.container-1NXEtd {
+	background: var(--utility-header-color, var(--background-secondary)) !important;
+}
+
+.container-YkUktl {
+	background: none !important;
+}
+
+.panels-3wFtMD {
+	background: none !important;
+}
+
+.scroller-1ox3I2 {
+    contain: none;
+}
+
+.scroller-1ox3I2:before {
+	-webkit-box-shadow: var(--elevation-top);
+	background: var(--utility-header-color, var(--background-secondary));
+	z-index: -1 !important;
+	box-shadow: var(--elevation-top);
+	content: ""; position: fixed;
+	width: 240px; height: 53px;
+	bottom: 0px; left: 72px; 
 }
