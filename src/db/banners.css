@@ -53,208 +53,113 @@
 
 }
 
-/* KLWP Project Server [Server ID (390020191582683146)] */
-.guildIcon-3ZfRfI[style*='390020191582683146']~*,
-.guildIcon-3ZfRfI[style*='390020191582683146'],
-.guildIcon-3ZfRfI[style*='390020191582683146'],
-[aria-label*="KLWP Project"],
+*[aria-label*="KLWP Project"],
 *[style*='390020191582683146'] {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	--BannerBG-Server-Banner: url("https://i.imgur.com/uwTFn7K.png") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("https://i.imgur.com/uwTFn7K.png"); /* url("") */
 
 }
 
-/* Comfy Support Server [Server ID (811203761619337259)] */
-.guildIcon-3ZfRfI[style*='811203761619337259']~*,
-.guildIcon-3ZfRfI[style*='811203761619337259'],
-.guildIcon-3ZfRfI[style*='811203761619337259'],
-[aria-label*="🎃 Spooky camp"], 
-[aria-label*="Comfy camp"],
+*[aria-label*="🎃 Spooky camp"], 
+*[aria-label*="Comfy camp"],
 *[style*='811203761619337259'] {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	--BannerBG-Server-Banner: url("https://github.com/NYRI4/Comfy/blob/master/assets/banner.png?raw=true") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 35px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("https://github.com/NYRI4/Comfy/blob/master/assets/banner.png?raw=true"); /* url("") */
 
 }
 
-/* BorderShapes Support Server [Server ID (859835827877838868)] */
-.guildIcon-3ZfRfI[style*='859835827877838868']~*,
-.guildIcon-3ZfRfI[style*='859835827877838868'],
-.guildIcon-3ZfRfI[style*='859835827877838868'],
-[aria-label*="BorderShapes"],
+*[aria-label*="BorderShapes"],
 *[style*='859835827877838868'] {
 
-	--BannerBG-Header-Height: 100px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	--BannerBG-Server-Banner: url("https://media.discordapp.net/attachments/861776833190821918/885558176630603796/Server-Invite-Background.png?width=767&height=431") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("https://media.discordapp.net/attachments/861776833190821918/885558176630603796/Server-Invite-Background.png"); /* url("") */
 
 }
 
 /*  Pukima Community's Server [Server ID (782245108724400128)] */
-.guildIcon-3ZfRfI[style*='782245108724400128']~*,
-.guildIcon-3ZfRfI[style*='782245108724400128'],
-.guildIcon-3ZfRfI[style*='782245108724400128'],
-[aria-label*="Pukima's Place"],
+*[aria-label*="Pukima's Place"],
 *[style*='782245108724400128'] {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	--BannerBG-Server-Banner: url("https://i.imgur.com/oXrPAM5.png") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("https://i.imgur.com/oXrPAM5.png"); /* url("") */
 
 }
 
-/*  Open Styles Server [Server ID (379521691774353408)]   */
-.guildIcon-3ZfRfI[style*='379521691774353408']~*,
-.guildIcon-3ZfRfI[style*='379521691774353408'],
-.guildIcon-3ZfRfI[style*='379521691774353408'],
-[aria-label*="Open Styles"],
+*[aria-label*="Open Styles"],
 *[style*='379521691774353408'] {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	--BannerBG-Server-Banner: url("https://i.imgur.com/JMGpcyX.png") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("https://i.imgur.com/JMGpcyX.png"); /* url("") */
 
 }
 
-/*  GREEN GANG [REBORN]'s Server [Server ID (695983588709105684)]         */
-.guildIcon-3ZfRfI[style*='695983588709105684']~*,
-.guildIcon-3ZfRfI[style*='695983588709105684'],
-.guildIcon-3ZfRfI[style*='695983588709105684'],
-[aria-label*="GREEN GANG [REBORN]"],
+*[aria-label*="GREEN GANG [REBORN]"],
 *[style*='695983588709105684'] {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	--BannerBG-Server-Banner: url("https://i.imgur.com/Kc6mSmn.jpg") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("https://i.imgur.com/Kc6mSmn.jpg"); /* url("") */
 
 }
 
