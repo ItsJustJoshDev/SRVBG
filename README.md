@@ -1,5 +1,10 @@
 # SRVBG - Server Backgrounds
-USRBG But For Server Banners - Server Banners For Discord Without The Server Boosts! What More Could You Want
+a Custom Background Database For Servers
+
+Inculdes Accent Colors, Banners, Tooltips and Custom Badges
+
+Preview
+![image](https://user-images.githubusercontent.com/68560159/156074983-60a9e3e7-4092-475e-a25f-c23765b8dc88.png)
 
 Import Links
 ```css
