@@ -31,7 +31,7 @@
 	--server-tooltip: block;
 	--server-tooltip-text: "Lavender Official Server";
 	--server-badge: url("https://obscure-git.github.io/Lavender/assets/logo.png");
-	--server-background: var(--server-accent); /* url(""); */
+	--server-background: var(--server-accent);
 
 }
 
@@ -67,7 +67,7 @@
 	--server-tooltip: ; /* block */
 	--server-tooltip-text: ; /* "Text" */
 	--server-badge: ; /* url("") */
-	--server-background: url("https://i.imgur.com/uwTFn7K.png"); /* url("") */
+	--server-background: url("https://i.imgur.com/uwTFn7K.png"); 
 
 }
 
@@ -86,7 +86,7 @@
 	--server-tooltip: ; /* block */
 	--server-tooltip-text: ; /* "Text" */
 	--server-badge: ; /* url("") */
-	--server-background: url("https://github.com/NYRI4/Comfy/blob/master/assets/banner.png?raw=true"); /* url("") */
+	--server-background: url("https://github.com/NYRI4/Comfy/blob/master/assets/banner.png?raw=true");
 
 }
 
@@ -104,7 +104,7 @@
 	--server-tooltip: ; /* block */
 	--server-tooltip-text: ; /* "Text" */
 	--server-badge: ; /* url("") */
-	--server-background: url("https://media.discordapp.net/attachments/861776833190821918/885558176630603796/Server-Invite-Background.png"); /* url("") */
+	--server-background: url("https://media.discordapp.net/attachments/861776833190821918/885558176630603796/Server-Invite-Background.png");
 
 }
 
@@ -123,7 +123,7 @@
 	--server-tooltip: ; /* block */
 	--server-tooltip-text: ; /* "Text" */
 	--server-badge: ; /* url("") */
-	--server-background: url("https://i.imgur.com/oXrPAM5.png"); /* url("") */
+	--server-background: url("https://i.imgur.com/oXrPAM5.png");
 
 }
 
@@ -141,7 +141,7 @@
 	--server-tooltip: ; /* block */
 	--server-tooltip-text: ; /* "Text" */
 	--server-badge: ; /* url("") */
-	--server-background: url("https://i.imgur.com/JMGpcyX.png"); /* url("") */
+	--server-background: url("https://i.imgur.com/JMGpcyX.png");
 
 }
 
@@ -159,237 +159,134 @@
 	--server-tooltip: ; /* block */
 	--server-tooltip-text: ; /* "Text" */
 	--server-badge: ; /* url("") */
-	--server-background: url("https://i.imgur.com/Kc6mSmn.jpg"); /* url("") */
+	--server-background: url("https://i.imgur.com/Kc6mSmn.jpg");
 
 }
 
-/* New Banner Unknown */
-[aria-label*="IsaacTown"] {
+*[aria-label*="IsaacTown"] /* *[style*=''] */ {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	--BannerBG-Server-Banner: url("https://i.imgur.com/B5NwEPm.png") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("https://i.imgur.com/B5NwEPm.png");
 
 }
 
-
-/* Black Box [SERVER-ID](449175561529589761) */
-.guildIcon-3ZfRfI[style*='449175561529589761']~*,
-.guildIcon-3ZfRfI[style*='449175561529589761'],
-.guildIcon-3ZfRfI[style*='449175561529589761'],
-[aria-label*="Black Box"],
+*[aria-label*="Black Box"],
 *[style*='449175561529589761'] {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	--BannerBG-Server-Banner: url("http://i.picpar.com/BSwd.gif") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("http://i.picpar.com/BSwd.gif");
 
 }
 
 /* Archcraft Support Servers */
-.guildIcon-3ZfRfI[style*='858830126711046177']~*,
-.guildIcon-3ZfRfI[style*='888837929789710387']~*,
-.guildIcon-3ZfRfI[style*='858830126711046177'],
-.guildIcon-3ZfRfI[style*='888837929789710387'],
-.guildIcon-3ZfRfI[style*='858830126711046177'],
-.guildIcon-3ZfRfI[style*='888837929789710387'],
-[aria-label*="Archcraft"],
+*[aria-label*="Archcraft"],
 *[style*='858830126711046177'],
 *[style*='888837929789710387'] {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 116px 16px 16px 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	--BannerBG-Server-Banner: url("https://i.imgur.com/c1eTK8b.png") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("https://i.imgur.com/c1eTK8b.png");
 
 }
 
-/* Team Flashcord */
-.guildIcon-3ZfRfI[style*='820007082937942048']~*,
-.guildIcon-3ZfRfI[style*='820007082937942048'],
-.guildIcon-3ZfRfI[style*='820007082937942048'],
-[aria-label*="Flashcord"],
+*[aria-label*="Flashcord"],
 *[style*='820007082937942048'] {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	/* Tehehe Don't Tell */
-	--BannerBG-Server-Banner: url("https://i.imgur.com/D0F2m68.png") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("https://i.imgur.com/D0F2m68.png"); /* Tehehe Don't Tell */
 
 }
 
-/* Otaku's Server */
-[aria-label*="otaku's server"] {
+[aria-label*="otaku's server"] /* *[style*=''] */ {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 120px 16px 16px 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	--BannerBG-Server-Banner: url("https://media.discordapp.net/attachments/895843260419952741/896054385061298176/ezgif.com-gif-maker.png") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("https://media.discordapp.net/attachments/895843260419952741/896054385061298176/ezgif.com-gif-maker.png");
 
 }
 
-/* CreArts | Community - Server ID (534376415202639903) */
-.guildIcon-3ZfRfI[style*='534376415202639903']~*,
-.guildIcon-3ZfRfI[style*='534376415202639903'],
-.guildIcon-3ZfRfI[style*='534376415202639903'],
-[aria-label*="CreArts | Community"],
+*[aria-label*="CreArts | Community"],
 *[style*='534376415202639903'] {
 
-	--BannerBG-Header-Height: 140px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: rgba(205, 9, 82, 1.0); /* #000 */
+	--server-accent-extra: rgb(204, 142, 165); /* #000 */
 
-	--BannerBG-Server-Banner: url("https://i.imgur.com/nOPFf0m.png") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: url("https://i.imgur.com/nOPFf0m.png");
 
-	/* BetterInvites */
-	--BInvM6: calc(var(--bInvBannerHeight) - 87px) 0 51px 0 !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
-
-}
-
-/* CreArts Is Special :3 */
-.container-3w7J-x[aria-label*="CreArts"] + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ {
-  color: rgba(205, 9, 82, 1.0) !important;
-}
-.container-3w7J-x[aria-label*="CreArts"] + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ [class*="strikethrough"] {
-  color: rgb(204, 142, 165) !important;
 }
 
 /* Template Banner */
-[aria-label*="BannerBG-Test-Banner"] {
+*[aria-label*="BannerBG-Test-Banner"],
+*[style*='BannerBG-Test-Banner'] {
 
-	--BannerBG-Header-Height: 150px !important;
-	--BannerBG-Header-Padding: 16px !important;
-	--BannerBG-Header-Box-Shadow: none !important;
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: ; /* 152px */
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
 
-	--BannerBG-Server-Banner: url("") !important;
-	--BannerBG-Server-Width: 100% !important;
-	--BannerBG-Server-Height: 100% !important;
-	--BannerBG-Server-Top: 0 !important;
-	--BannerBG-Server-Left: 0 !important;
-	--BannerBG-Server-Z-Index: -1 !important;
-	--BannerBG-Server-Position: absolute !important;
-
-	/* CreArts V2 Vars */
-	--BBG-CreArts-Header-Height: 135px;
-	--BBG-CreArts-Header-Padding: 80px;
-	--BBG-CreArts-Header-Z-Index: 2;
-	--BBG-CreArts-Header-Opacity-1: 1;
-	--BBG-CreArts-Header-Opacity-0: 0;
-	--BBG-CreArts-Header-Transition: none;
-	--BBG-CreArts-Header-Color: var(--interactive-active);
-	--BBG-CreArts-Header-Radius: var(--radius-primary);
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: ; /* url("") */
 
 }
