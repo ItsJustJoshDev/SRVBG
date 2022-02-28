@@ -16,6 +16,43 @@
 
 }
 
+*[aria-label*="Gradient"],
+*[aria-label*="Lavender"],
+*[style*='918856439202734150'] {
+
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: #51517d;
+
+	--utility-tooltip-margin: 6px;
+	--utility-tooltip-pading: 1px 8px 0px 8px;
+	--server-tooltip: block;
+	--server-tooltip-text: "Lavender Official Server";
+	--server-badge: url("https://obscure-git.github.io/Lavender/assets/logo.png");
+	--server-background: var(--server-accent); /* url(""); */
+
+}
+
+*[aria-label*="The Coop"],
+*[style*='723660447508725802'] {
+
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: ; /* 152px */
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: ; /* #000 */
+
+	--utility-tooltip-margin: ; /* 6px */
+	--utility-tooltip-pading: ; /* 1px 8px 0px 8px */
+	--server-tooltip: ; /* block */
+	--server-tooltip-text: ; /* "Text" */
+	--server-badge: ; /* url("") */
+	--server-background: ; /* url("") */
+
+}
+
 /* KLWP Project Server [Server ID (390020191582683146)] */
 .guildIcon-3ZfRfI[style*='390020191582683146']~*,
 .guildIcon-3ZfRfI[style*='390020191582683146'],
