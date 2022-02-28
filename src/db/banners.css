@@ -16,6 +16,24 @@
 
 }
 
+*[aria-label*="BirdChamber"],
+*[style*='938570197122547842'] {
+
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: #1C1C1C; /* var(--background-secondary); */
+	--server-accent: #9984ff;
+
+	--utility-tooltip-margin: 6px;
+	--utility-tooltip-pading: 1px 8px 0px 8px;
+	--server-tooltip: block;
+	--server-tooltip-text: "KeragoSecurity";
+	--server-badge: url("https://womginx.wmeluna.repl.co/main/im_/https://media.discordapp.net/attachments/946850129619583067/948000510793891881/2f8e50eabe66d3611d30f9108984615e-origami-bird-silhouette.png");
+	--server-background: url("https://womginx.wmeluna.repl.co/main/im_/https://media.discordapp.net/attachments/946850129619583067/948000557006749756/temp1.png");
+
+}
+
 *[aria-label*="Gradient"],
 *[aria-label*="Lavender"],
 *[style*='918856439202734150'] {
