@@ -6,10 +6,6 @@
 	width: 5px;
 }
 
-.container-1NXEtd .addButtonIcon-3rJeaD polygon {
-	fill: var(--server-accent, var(--interactive-normal)) !important;
-}
-
 .container-1NXEtd [class*="mention"] {
 	background-color: var(--server-accent, var(--brand-experiment)) !important;
 }
@@ -18,10 +14,6 @@
 .container-1NXEtd [class*="numberBadge"] {
 	background-color: var(--server-accent, var(--brand-experiment)) !important;
 	border-radius: 50% !important;
-}
-
-.container-1NXEtd .iconBase-2G48Fc path {
-	fill: var(--server-accent, var(--interactive-normal)) !important;
 }
 
 .container-1NXEtd .unread-36eUEm {
