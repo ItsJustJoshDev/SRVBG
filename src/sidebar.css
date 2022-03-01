@@ -40,6 +40,10 @@
 	color: var(--server-accent-extra, red) !important;
 }
 
+.container-2giAcK .progressBar-2yl2pi {
+	background: var(--server-accent, var(--brand-experiment)) !important;
+}
+
 .container-1NXEtd {
 	background: var(--utility-header-color, var(--background-secondary)) !important;
 }
