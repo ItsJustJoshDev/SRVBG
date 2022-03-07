@@ -23,10 +23,8 @@
 }
 
 .container-1-ERn5 [class*="header-"]::before {
-	-webkit-box-shadow: var(--elevation-low);
-	background: var(--utility-header-color, var(--background-secondary));
+	background: var(--utility-header-color);
 	z-index: var(--utility-z-index-base);
-	box-shadow: var(--elevation-low);
 	content: ""; position: absolute;
 	width: 100%; height: 50px;
 	top: 0; left: 0; 
@@ -51,16 +49,21 @@
 }
 
 .container-1-ERn5 [class*="header-"] [class*="flowerStar"] *,
-.container-1-ERn5 [class*="header-"] .name-3Uvkvr {
+.container-1-ERn5 [class*="header-"] .name-3Uvkvr,
+.container-1-ERn5 [class*="header-"] {
 	z-index: var(--utility-z-index-extra) !important;
+}
+
+
+.container-1-ERn5 [class*="header-"] .flowerStar-2tNFCR path {
+	color: var(--server-accent, inherit);
 }
 
 /* Fix Boosted Banners From Breaking */
 [class*="animatedContainer-"] {
-	margin-top: 49px;
-	height: calc(var(--srvbg-height) - 55px);
 	opacity: 1 !important;
 	transition: opacity .5s;
+	z-index: 0 !important;
 }
 
 [class*="animatedContainer-"] > [class*="bannerImage-"] {
@@ -68,7 +71,7 @@
 }
 
 :not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
-	margin-top: -12px; opacity: .35 !important; height: 150px;
+	opacity: .35 !important;
 }
 
 /* Server Badges & Tooltips */
@@ -94,6 +97,11 @@
 .container-1-ERn5 .header-3OsQeK .name-3Uvkvr:hover::after {
 	opacity: var(--utility-opacity-hover);
 	display: var(--server-tooltip, none);
+}
+
+/* Extra */
+.avatarUploader-2S1mwW .avatarUploaderInner-1Cp1oP {
+    background: var(--server-accent, var(--brand-experiment));
 }
 
 /* Keyframes */
