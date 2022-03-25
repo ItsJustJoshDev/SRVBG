@@ -1,0 +1,61 @@
+/* Custom Banner */
+.container-1NXEtd .header-3OsQeK {
+	-webkit-mask: linear-gradient(var(--utility-header-color, var(--background-secondary)) 80%, transparent);
+	background-color: linear-gradient(var(--utility-header-color, var(--background-secondary)), transparent);
+	height: var(--server-background-height) !important;
+	background-image: var(--server-background);
+	padding-bottom: var(--utility-padding);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/* Fake Header */
+.container-1NXEtd .header-3OsQeK::before {
+	background: linear-gradient(var(--utility-header-color), transparent) !important;
+	content: ""; position: absolute;
+	width: 100%; height: 50px;
+	top: 0; left: 0; 
+	z-index: 0;
+}
+
+/* Boost Icon Coloring */
+.container-1NXEtd .header-3OsQeK .flowerStar-2tNFCR path {
+	color: var(--server-accent, inherit);
+}
+
+/* Custom Tooltip and Icon */
+.container-1NXEtd .header-3OsQeK .name-3Uvkvr::before {
+	content: ""; background: no-repeat;
+	background: var(--server-badge) center/100% !important;
+	padding: var(--utility-tooltip-pading, 0);
+	margin-right: var(--utility-tooltip-margin, 0);
+	z-index: 5 !important;
+}
+
+.container-1NXEtd .header-3OsQeK .name-3Uvkvr::after {
+	background-color: var(--server-accent, var(--background-floating));
+	-webkit-box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
+	display: none; animation: anim .5s forwards;
+	content: var(--server-tooltip-text, none);
+	padding: 5px 10px; border-radius: 4px;
+	font-size: 12px; position: absolute;
+	opacity: var(--utility-opacity);
+}
+
+.container-1NXEtd .header-3OsQeK .name-3Uvkvr:hover::after {
+	opacity: var(--utility-opacity-hover);
+	display: var(--server-tooltip, none);
+}
+
+/* Keyframes */
+@keyframes anim {
+	from {
+		left: 5px; top: 35px; opacity: 0; display: none;
+	}
+
+	to {
+		left: 10px; top: 40px; opacity: 1; display: block;
+	}
+}
