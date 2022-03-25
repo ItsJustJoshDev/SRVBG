@@ -1,92 +1,107 @@
 @import url("https://itsjustjoshdev.github.io/SRVBG/src/db/banners.css");
 
 :root {
-
-	--utility-top: 0;
-	--utility-left: 0;
-	--utility-z-index-base: 0;
-	--utility-z-index-content: 4;
-	--utility-z-index-extra: 5;
-	--utility-position: absolute;
 	--utility-opacity: 0;
 	--utility-opacity-hover: 1;
-
 }
 
-/* Server Banners */
-.container-1-ERn5 [class*="header-"] {
-	height: var(--server-background-height, 48px);
+/* Nitro Banners */
+.bannerImg-2PzH6z,
+.bannerImage-ubW8K- {
+	-webkit-mask: linear-gradient(var(--background-secondary) 90%, transparent);
+	width: 100%;
+}
+
+.hasBanner-2IrYih .header-3OsQeK {
+	height: 135px !important;
+	padding-bottom: 84px;
+}
+
+.hasBanner-2IrYih .animatedContainer-2laTjx {
+	transform: translateY(0px) !important;
+	opacity: 1 !important;
+}
+
+.hasBanner-2IrYih .bannerImage-ubW8K- {
+	transform: translateY(0px) !important;
+}
+
+.scroller-1ox3I2 [style="height: 84px;"] {
+	display: none !important;
+}
+
+.animatedContainer-2laTjx {
+	background: var(--background-secondary) !important;
+	transform: translateY(0px) !important;
+	margin-bottom: 84px !important;
+	box-shadow: none !important;
+	opacity: 1 !important;
+	z-index: 2 !important;
+}
+
+.bannerImage-ubW8K- {
+	transform: translateY(0px) !important;
+}
+
+
+/* SRVBG */
+.header-3OsQeK:not(.hasBanner-2IrYih .header-3OsQeK) {
+	height: calc(var(--server-background-height) - 10px);
 	padding: 16px; align-items: flex-start;
-	z-index: var(--utility-z-index-base);
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
+	z-index: 5 !important;
 }
 
-.container-1-ERn5 [class*="header-"]::before {
-	background: var(--utility-header-color);
-	z-index: var(--utility-z-index-base);
+.header-3OsQeK:not(.hasBanner-2IrYih .header-3OsQeK)::before {
+	background: linear-gradient(var(--utility-header-color), transparent) !important;
 	content: ""; position: absolute;
 	width: 100%; height: 50px;
 	top: 0; left: 0; 
+	z-index: 1;
 }
 
-.container-1-ERn5 [class*="header-"]::after {
+.header-3OsQeK:not(.hasBanner-2IrYih .header-3OsQeK)::after {
 	content: "";
 	position: absolute;
-	top: 48px;
+	top: -10px;
 	left: 0;
-	z-index: var(--utility-z-index-base);
+	z-index: 0;
 	width: 100%;
-	height: calc(var(--server-background-height) - 50px);
+	height: var(--server-background-height);
 	background: var(--server-background, var(--server-accent)) center/cover;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	-webkit-mask: linear-gradient(var(--background-secondary), transparent);
+	-webkit-mask: linear-gradient(var(--background-secondary) 80%, transparent);
 }
 
-.container-1-ERn5 [class*="header-"] [class*="flowerStar-"] {
-	z-index: var(--utility-z-index-content) !important;
+.header-3OsQeK [class*="flowerStar-"] {
+	z-index: 4 !important;
 }
 
-.container-1-ERn5 [class*="header-"] [class*="flowerStar"] *,
-.container-1-ERn5 [class*="header-"] .name-3Uvkvr,
-.container-1-ERn5 [class*="header-"] {
-	z-index: var(--utility-z-index-extra) !important;
+.header-3OsQeK [class*="flowerStar"] *,
+.header-3OsQeK .name-3Uvkvr,
+.header-3OsQeK {
+	z-index: 5 !important;
 }
 
 
-.container-1-ERn5 [class*="header-"] .flowerStar-2tNFCR path {
+.header-3OsQeK .flowerStar-2tNFCR path {
 	color: var(--server-accent, inherit);
 }
 
-/* Fix Boosted Banners From Breaking */
-[class*="animatedContainer-"] {
-	opacity: 1 !important;
-	transition: opacity .5s;
-	z-index: 0 !important;
-}
-
-[class*="animatedContainer-"] > [class*="bannerImage-"] {
-	transition: margin .5s;
-}
-
-:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
-	opacity: .35 !important;
-}
-
-/* Server Badges & Tooltips */
-.container-1-ERn5 .header-3OsQeK .name-3Uvkvr::before {
+.header-3OsQeK .name-3Uvkvr::before {
 	content: ""; background: no-repeat;
 	background: var(--server-badge) center/100% !important;
 	padding: var(--utility-tooltip-pading, 0);
 	margin-right: var(--utility-tooltip-margin, 0);
-	z-index: var(--utility-z-index-extra) !important;
+	z-index: 5 !important;
 }
 
-.container-1-ERn5 .header-3OsQeK .name-3Uvkvr::after {
+.header-3OsQeK .name-3Uvkvr::after {
+	background-color: var(--server-accent, var(--background-floating));
 	-webkit-box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
 	box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
-	background-color: var(--server-accent, var(--background-floating));
 	display: none; animation: anim .5s forwards;
 	content: var(--server-tooltip-text, none);
 	padding: 5px 10px; border-radius: 4px;
@@ -94,14 +109,9 @@
 	opacity: var(--utility-opacity);
 }
 
-.container-1-ERn5 .header-3OsQeK .name-3Uvkvr:hover::after {
+.header-3OsQeK .name-3Uvkvr:hover::after {
 	opacity: var(--utility-opacity-hover);
 	display: var(--server-tooltip, none);
-}
-
-/* Extra */
-.avatarUploader-2S1mwW .avatarUploaderInner-1Cp1oP {
-    background: var(--server-accent, var(--brand-experiment));
 }
 
 /* Keyframes */
