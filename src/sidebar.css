@@ -32,11 +32,11 @@
 	color: var(--server-accent, var(--header-primary)) !important;
 }
 
-.container-1-ERn5 + .panels-3wFtMD > .container-YkUktl .button-12Fmur {
+.container-1NXEtd+.panels-3wFtMD > .container-YkUktl .button-12Fmur {
 	color: var(--server-accent, var(--interactive-normal)) !important;
 }
 
-.container-1-ERn5 + .panels-3wFtMD > .container-YkUktl .button-12Fmur [class*="strikethrough"] {
+.container-1NXEtd+.panels-3wFtMD > .container-YkUktl .button-12Fmur [class*="strikethrough"] {
 	color: var(--server-accent-extra, red) !important;
 }
 
@@ -46,4 +46,8 @@
 
 .container-1NXEtd {
 	background: var(--utility-header-color, var(--background-secondary)) !important;
+}
+
+.container-1NXEtd+.panels-3wFtMD {
+	background-color: var(--utility-header-color) !important;
 }
