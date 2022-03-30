@@ -1,3 +1,4 @@
+[aria-label*="The King's Lounge"]+*,
 [aria-label*="The King's Lounge"],
 [style*='818960705255899178'] {
 
@@ -19,8 +20,9 @@
 
 }
 
-[aria-label*="BirdChamber"],
-[style*='938570197122547842'] {
+[aria-label*="BirdChamber"]+*,
+[style*='938570197122547842'],
+[aria-label*="BirdChamber"] {
 
 	--server-background-top: 0;
 	--server-background-left: 0;
@@ -40,9 +42,11 @@
 
 }
 
+[style*='918856439202734150'],
+[aria-label*="Gradient"]+*,
+[aria-label*="Lavender"]+*,
 [aria-label*="Gradient"],
-[aria-label*="Lavender"],
-[style*='918856439202734150'] {
+[aria-label*="Lavender"] {
 
 	--server-background-top: 0;
 	--server-background-left: 0;
@@ -62,8 +66,9 @@
 
 }
 
-[aria-label*="The Coop"],
-[style*='723660447508725802'] {
+[style*='723660447508725802'],
+[aria-label*="The Coop"]+*,
+[aria-label*="The Coop"] {
 
 	--server-background-top: 0;
 	--server-background-left: 0;
@@ -82,8 +87,9 @@
 
 }
 
-[aria-label*="KLWP Project"],
-[style*='390020191582683146'] {
+[aria-label*="KLWP Project"]+*,
+[style*='390020191582683146'],
+[aria-label*="KLWP Project"] {
 
 	--server-background-top: 0;
 	--server-background-left: 0;
@@ -102,9 +108,9 @@
 
 }
 
-[aria-label*="🎃 Spooky camp"], 
-[aria-label*="Comfy camp"],
-[style*='811203761619337259'] {
+[style*='811203761619337259'],
+[aria-label*="Comfy camp"]+*,
+[aria-label*="Comfy camp"] {
 
 	--server-background-top: 0;
 	--server-background-left: 0;
@@ -123,8 +129,9 @@
 
 }
 
-[aria-label*="BorderShapes"],
-[style*='859835827877838868'] {
+[aria-label*="BorderShapes"]+*,
+[style*='859835827877838868'],
+[aria-label*="BorderShapes"] {
 
 	--server-background-top: 0;
 	--server-background-left: 0;
@@ -143,6 +150,7 @@
 
 }
 
+[aria-label*="Pukima's Place"]+*,
 [aria-label*="Pukima's Place"],
 [style*='782245108724400128'] {
 
@@ -163,8 +171,9 @@
 
 }
 
-[aria-label*="Open Styles"],
-[style*='379521691774353408'] {
+[style*='379521691774353408'],
+[aria-label*="Open Styles"]+*,
+[aria-label*="Open Styles"] {
 
 	--server-background-top: 0;
 	--server-background-left: 0;
@@ -183,6 +192,7 @@
 
 }
 
+[aria-label*="GREEN GANG [REBORN]"]+*,
 [aria-label*="GREEN GANG [REBORN]"],
 [style*='695983588709105684'] {
 
@@ -203,8 +213,9 @@
 
 }
 
-[aria-label*="Black Box"],
-[style*='449175561529589761'] {
+[style*='449175561529589761'],
+[aria-label*="Black Box"]+*,
+[aria-label*="Black Box"] {
 
 	--server-background-top: 0;
 	--server-background-left: 0;
@@ -223,9 +234,10 @@
 
 }
 
-[aria-label*="Archcraft"],
 [style*='858830126711046177'],
-[style*='888837929789710387'] {
+[style*='888837929789710387'],
+[aria-label*="Archcraft"]+*, 
+[aria-label*="Archcraft"] {
 
 	--server-background-top: 0;
 	--server-background-left: 0;
@@ -244,8 +256,9 @@
 
 }
 
-[aria-label*="Flashcord"],
-[style*='820007082937942048'] {
+[style*='820007082937942048'],
+[aria-label*="Flashcord"]+*,
+[aria-label*="Flashcord"] {
 
 	--server-background-top: 0;
 	--server-background-left: 0;
@@ -264,6 +277,7 @@
 
 }
 
+[aria-label*="CreArts | Community"]+*,
 [aria-label*="CreArts | Community"],
 [style*='534376415202639903'] {
 
@@ -280,6 +294,23 @@
 	--server-tooltip-text: ; /* "Text" */
 	--server-badge: ; /* url("") */
 	--server-background: url("https://i.imgur.com/nOPFf0m.png");
+
+	/* CreArts v3 */
+	--utility-padding: 90px; 
+
+}
+
+[aria-label*="ShipGirls Community"]+*,
+[aria-label*="ShipGirls Community"],
+[style*='423116740810244097'] {
+
+	--server-background-top: 0;
+	--server-background-left: 0;
+	--server-background-height: 152px;
+	--utility-header-color: var(--background-secondary); /* var(--server-accent); */
+	--server-accent: #977a9b;
+
+	--server-background: url("https://itsjustjoshdev.github.io/src/assets/user/lanyard_banner.png");
 
 	/* CreArts v3 */
 	--utility-padding: 90px; 
