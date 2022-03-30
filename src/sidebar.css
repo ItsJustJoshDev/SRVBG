@@ -44,10 +44,19 @@
 	background: var(--server-accent, var(--brand-experiment)) !important;
 }
 
-.container-1NXEtd {
+.container-1NXEtd .scrollerBase-_bVAAt,
+.container-1NXEtd .thin-31rlnD,
+.container-1NXEtd .fade-1R6FHN,
+.container-1NXEtd .scroller-1ox3I2 {
 	background: var(--utility-header-color, var(--background-secondary)) !important;
+	background-color: var(--utility-header-color, var(--background-secondary)) !important;	
+}
+
+/* CreArts idk */
+.container-1eD8xH {
+  background: var(--utility-header-color, var(--background-primary)) !important;
 }
 
 .container-1NXEtd+.panels-3wFtMD {
-	background-color: var(--utility-header-color) !important;
+	background-color: var(--utility-header-color, var(--background-secondary)) !important;
 }
